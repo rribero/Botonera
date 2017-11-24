@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rribero.botoneragumer.Botones"
+    android:id="@+id/search_bar"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="@string/stop"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salvoque" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/avances" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/barbarian" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/batman" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botoncitos" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sonia" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dudo" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agudo" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fatality" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nostalgia" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gambito" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gato" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grosa" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gumer" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hijademil" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/juego" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/juegodeh" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lagfiles" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lapapota" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loros" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mono" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wii" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lego" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/original" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/papel" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pegar" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ponian" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sale" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boludo" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quiero" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reload" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/risa" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ruido" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/serasera" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sinonimos" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hitman" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/solo" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tatan" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/termos" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hermana" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vieja" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/muza" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sanders" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cinco" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/HDP" />
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ESTAMIERDA" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
